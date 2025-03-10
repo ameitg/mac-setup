@@ -2,4 +2,10 @@
 echo >> `whoami`/.zprofile
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> `whoami`/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
+brew install npm
+npm install -g npm #upgrade NPM
+brew install openjdk #install JDK for android studio
+brew install android-studio #install Android studio
+https://apps.apple.com/us/app/xcode/id497799835?mt=12 #Install xcode
+
 
